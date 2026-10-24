@@ -5,8 +5,8 @@ const SITE = {
   name: "Inu Wif Sword",
   ticker: "SWORDINU",
   ca: "",
-  twitter: "",
-  telegram: "",
+  twitter: "https://x.com/swordinu_x",
+  telegram: "https://t.me/swordinu_tg",
 };
 
 const ca = (SITE.ca || "").trim();
