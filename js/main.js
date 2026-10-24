@@ -42,10 +42,10 @@ function hydrate() {
     chip.setAttribute("aria-label", `Copy mint address ${ca}`);
     footer.textContent = `Mint: ${ca}`;
   } else {
-    code.textContent = "9oRPma8GTCDBdXLgHwSV4sYmhXKLWBfPMZ4hYwQwpump";
+    code.textContent = "TBA";
     action.textContent = "Soon";
-    chip.setAttribute("aria-label", "Mint address 9oRPma8GTCDBdXLgHwSV4sYmhXKLWBfPMZ4hYwQwpump");
-    footer.textContent = "Mint: 9oRPma8GTCDBdXLgHwSV4sYmhXKLWBfPMZ4hYwQwpump";
+    chip.setAttribute("aria-label", "Mint address TBA");
+    footer.textContent = "Mint: TBA";
   }
 
   const dex = document.getElementById("linkDex");
@@ -73,7 +73,7 @@ function hydrate() {
 
 async function copyMint() {
   if (!ca) {
-    toast("Mint 9oRPma8GTCDBdXLgHwSV4sYmhXKLWBfPMZ4hYwQwpump.");
+    toast("Mint TBA.");
     return;
   }
   try {
